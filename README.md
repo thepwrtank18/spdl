@@ -27,3 +27,6 @@ It **cannot** download:
 as those are not available on the Viacom servers publicly, for reasons I can't list on a GitHub repo (hint: politics). Most of those can be downloaded via https://southparkuncensored.com.
 
 Subtitles are not downloaded, because that's a giant mess to deal with. If you can figure it out, you can make a pull request and i'll credit you here.
+
+## Downloading specific episodes
+You can delete lines of the batch.txt file to only download the episodes/seasons you want, then run the same command again.
