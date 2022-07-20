@@ -24,6 +24,6 @@ It **cannot** download:
 7. Bigger, Longer and Uncut
 8. All Paramount+ specials
 
-as those are not available on the Viacom servers publicly. Most of those can be downloaded via https://southparkuncensored.com.
+as those are not available on the Viacom servers publicly, for reasons I can't list on a GitHub repo (hint: politics). Most of those can be downloaded via https://southparkuncensored.com.
 
 Subtitles are not downloaded, because that's a giant mess to deal with. If you can figure it out, you can make a pull request and i'll credit you here.
