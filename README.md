@@ -31,5 +31,8 @@ Subtitles are not downloaded, because that's a giant mess to deal with. If you c
 ## Downloading specific episodes
 You can delete lines of the batch.txt file to only download the episodes/seasons you want, then run the same command again.
 
+## Sorting episodes
+good luck
+
 ## who cares
 This is for educational purposes only. All data on this repository is publicly available, directly from their sources.
