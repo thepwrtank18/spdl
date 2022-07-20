@@ -6,7 +6,7 @@ Downloads all the South Park episodes directly from Viacom's servers.
 
 ## How to use it
 ### BEFORE YOU DO ANYTHING
-You need to live in anywhere that lets you visit https://southparkstudios.com. If it redirects you to https://southpark.cc.com, you'll need to use a VPN to anywhere in the EU or Canada.
+You need to live in anywhere that lets you visit https://southparkstudios.com. If it redirects you to https://southpark.cc.com, you'll need to use a VPN to anywhere in the EU or, if you live in North America, "Canada, buddy!"
 
 ### Now that we're done with that...
 First, you'll need to put [yt-dlp.exe](https://github.com/yt-dlp/yt-dlp) and [ffmpeg.exe](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z) in the same folder as the batch file. Then, open cmd. Type in: `yt-dlp --batch-file batch.txt --concat-playlist always`. Let it do it's thing (this will take a while).
