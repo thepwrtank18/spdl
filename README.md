@@ -9,7 +9,7 @@ Downloads all the South Park episodes directly from Viacom's servers.
 You need to live in anywhere that lets you visit https://southparkstudios.com. If it redirects you to https://southpark.cc.com, you'll need to use a VPN to anywhere in the EU or, if you live in North America, "Canada, buddy!" (Rule of thumb: Closest to you.)
 
 ### Now that we're done with that...
-First, you'll need to put [yt-dlp.exe](https://github.com/yt-dlp/yt-dlp) and [ffmpeg.exe](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z) in the same folder as the batch file. Then, open cmd. Type in: `yt-dlp --batch-file batch.txt --concat-playlist always`. Let it do it's thing (this will take a while).
+First, you'll need to put [yt-dlp.exe](https://github.com/yt-dlp/yt-dlp) and [ffmpeg.exe](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z) in the same folder as the batch file. Then, open cmd. Type in: `yt-dlp --batch-file batch.txt --concat-playlist always --concurrent-fragments 20`. Let it do it's thing (this will take a while).
 
 In the meantime, any episodes that are clearly labeled (ex: "The New Terrance and Phillip Movie Trailer [NA].mp4") can be played with your media player of choice. Do not play episodes labeled weirdly (ex: "South Park _ The New Terrance and Phillip Movie Trailer _ E 0604 _ HDSS0604X eng _ Version - 423310 _ Comedy Central S1 [5be2e22a-03ea-4f38-886c-2e599aa1e961].mp4"). They are not finished downloading, and playing them could mess up the process when they are done.
 
