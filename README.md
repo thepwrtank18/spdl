@@ -21,6 +21,8 @@ Press Ctrl+C to stop the program (if applicable), delete all the bad files, then
 This is a server issue. Press Ctrl+C to stop the program (if applicable), delete the weirdly labeled files, edit the batch.txt to remove already downloaded episodes, then retry again in 15 minutes.
 ### `ERROR: The files have different streams/codecs and cannot be concatenated. Either select different formats or --recode-video them to a common format`
 The files are corrupted. Press Ctrl+C to stop the program (if applicable), delete all the weirdly labeled files, then edit the batch.txt to remove already downloaded episodes. Run it again.
+### 403: Forbidden errors (or similar)
+Remove the `--concurrent-fragments 20` line when starting up. Note that this will make the download take from 2 hours at most to DAYS. Only do this if you have to.
 
 ## What it can't do
 It **cannot** download:
