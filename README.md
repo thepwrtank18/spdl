@@ -13,6 +13,14 @@ First, you'll need to put [yt-dlp.exe](https://github.com/yt-dlp/yt-dlp) and [ff
 
 In the meantime, any episodes that are clearly labeled (ex: "The New Terrance and Phillip Movie Trailer [NA].mp4") can be played with your media player of choice. Do not play episodes labeled weirdly (ex: "South Park _ The New Terrance and Phillip Movie Trailer _ E 0604 _ HDSS0604X eng _ Version - 423310 _ Comedy Central S1 [5be2e22a-03ea-4f38-886c-2e599aa1e961].mp4"). They are not finished downloading, and playing them could mess up the process when they are done.
 
+## Errors during use
+### Episodes still weirdly labeled
+Press Ctrl+C to stop the program (if applicable), Delete all the bad files, then edit the batch.txt to remove the episodes you already downloaded. Run it again.
+### `ERROR: RTMP download detected but "rtmpdump" could not be run. Please install`
+(also known as `ERROR: rtmpdump exited with code 1`)
+
+This is a server issue. Press Ctrl+C to stop the program (if applicable), delete the weirdly labeled files, then retry again in 15 minutes.
+
 ## What it can't do
 It **cannot** download:
 1. Super Best Friends
