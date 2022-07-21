@@ -15,11 +15,12 @@ In the meantime, any episodes that are clearly labeled (ex: "The New Terrance an
 
 ## Errors during use
 ### Episodes still weirdly labeled
-Press Ctrl+C to stop the program (if applicable), Delete all the bad files, then edit the batch.txt to remove the episodes you already downloaded. Run it again.
+Press Ctrl+C to stop the program (if applicable), delete all the bad files, then edit the batch.txt to remove the episodes you already downloaded. Run it again.
 ### `ERROR: RTMP download detected but "rtmpdump" could not be run. Please install`
 (also known as `ERROR: rtmpdump exited with code 1`)
-
-This is a server issue. Press Ctrl+C to stop the program (if applicable), delete the weirdly labeled files, then retry again in 15 minutes.
+This is a server issue. Press Ctrl+C to stop the program (if applicable), delete the weirdly labeled files, edit the batch.txt to remove already downloaded episodes, then retry again in 15 minutes.
+### `ERROR: The files have different streams/codecs and cannot be concatenated. Either select different formats or --recode-video them to a common format`
+The files are corrupted. Press Ctrl+C to stop the program (if applicable), delete all the weirdly labeled files, then edit the batch.txt to remove already downloaded episodes. Run it again.
 
 ## What it can't do
 It **cannot** download:
